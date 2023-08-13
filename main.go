@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+	"github.com/386291john/godesde0/ejercicios"
 )
 
 func main() {
@@ -10,7 +10,11 @@ func main() {
 	fmt.Println(estado)
 	fmt.Println(texto)*/
 
-	if os := runtime.GOOS; os == "linux" || os == "OS X." {
+	num, texto := ejercicios.Ejercicio("132")
+	fmt.Println(num)
+	fmt.Println(texto)
+
+	/*if os := runtime.GOOS; os == "linux" || os == "OS X." {
 		fmt.Println("Esto no es Windows, es ", os)
 	} else {
 		fmt.Println("Esto es Windows")
@@ -23,5 +27,5 @@ func main() {
 		fmt.Println("esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	}*/
 }
