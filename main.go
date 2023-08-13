@@ -1,18 +1,15 @@
 package main
 
-import (
-	"fmt"
-	"github.com/386291john/godesde0/ejercicios"
-)
+import "github.com/386291john/godesde0/teclado"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
 	fmt.Println(estado)
 	fmt.Println(texto)*/
 
-	num, texto := ejercicios.Ejercicio("dddd")
+	/*num, texto := ejercicios.Ejercicio("dddd")
 	fmt.Println(num)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
 
 	/*if os := runtime.GOOS; os == "linux" || os == "OS X." {
 		fmt.Println("Esto no es Windows, es ", os)
@@ -28,4 +25,5 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	}*/
+	teclado.IngresoNumeros()
 }
