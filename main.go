@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(estado)
 	fmt.Println(texto)*/
 
-	num, texto := ejercicios.Ejercicio("132")
+	num, texto := ejercicios.Ejercicio("dddd")
 	fmt.Println(num)
 	fmt.Println(texto)
 
