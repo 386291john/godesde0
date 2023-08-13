@@ -1,6 +1,6 @@
 package main
 
-import "github.com/386291john/godesde0/teclado"
+import "github.com/386291john/godesde0/ejercicios"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -25,5 +25,12 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	}*/
-	teclado.IngresoNumeros()
+	//teclado.IngresoNumeros()
+
+	/*for {
+		fmt.Println("hola")
+		break
+	}*/
+	//iteraciones.Iterar()
+	ejercicios.Ingresos02()
 }
