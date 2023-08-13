@@ -1,6 +1,6 @@
 package main
 
-import "github.com/386291john/godesde0/ejercicios"
+import "github.com/386291john/godesde0/files"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -32,5 +32,10 @@ func main() {
 		break
 	}*/
 	//iteraciones.Iterar()
-	ejercicios.Ingresos02()
+
+	//fmt.Println(ejercicios.Ingresos02())
+
+	//files.GrabaTabla()
+	//files.SumaTabla()
+	files.LeoArchivo2()
 }

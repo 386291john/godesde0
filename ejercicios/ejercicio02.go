@@ -9,8 +9,9 @@ import (
 
 var numero1 int
 var err error
+var texto string
 
-func Ingresos02() {
+func Ingresos02() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
 		fmt.Println("Ingrese numero : ")
@@ -24,7 +25,9 @@ func Ingresos02() {
 		}
 	}
 	for i := 1; i < 10; i++ {
-		println(numero1, "*", i, "=", numero1*i)
-	}
+		//fmt.Println(numero1, "*", i, "=", numero1*i)
+		texto += fmt.Sprintln(numero1, "*", i, "=", numero1*i)
 
+	}
+	return texto
 }
