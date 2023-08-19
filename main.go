@@ -1,6 +1,6 @@
 package main
 
-import "github.com/386291john/godesde0/files"
+import "github.com/386291john/godesde0/funciones"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -37,5 +37,6 @@ func main() {
 
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo2()
+	//files.LeoArchivo2()
+	funciones.LlamarClosure()
 }
