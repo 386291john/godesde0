@@ -1,6 +1,6 @@
 package main
 
-import "github.com/386291john/godesde0/funciones"
+import "github.com/386291john/godesde0/mapas"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -38,5 +38,8 @@ func main() {
 	//files.GrabaTabla()
 	//files.SumaTabla()
 	//files.LeoArchivo2()
-	funciones.LlamarClosure()
+	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
