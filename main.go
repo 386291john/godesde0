@@ -1,6 +1,8 @@
 package main
 
-import "github.com/386291john/godesde0/mapas"
+import (
+	"github.com/386291john/godesde0/users"
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -41,5 +43,6 @@ func main() {
 	//funciones.LlamarClosure()
 	//funciones.Exponencia(2)
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	users.AltaUsua()
 }
