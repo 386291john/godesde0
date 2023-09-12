@@ -1,8 +1,8 @@
 package main
 
-import (
-	"github.com/386291john/godesde0/users"
-)
+import _defer "github.com/386291john/godesde0/defer"
+
+var Comer = true
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -44,5 +44,13 @@ func main() {
 	//funciones.Exponencia(2)
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
-	users.AltaUsua()
+	//users.AltaUsua()
+
+	/*Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Maria)*/
+
+	_defer.VemosDefer()
 }
