@@ -1,6 +1,9 @@
 package main
 
-import _defer "github.com/386291john/godesde0/defer"
+import (
+	"fmt"
+	"github.com/386291john/godesde0/goroutines"
+)
 
 var Comer = true
 
@@ -52,5 +55,9 @@ func main() {
 	Maria := new(modelos.Mujer)
 	ejer_interfaces.HumanosRespirando(Maria)*/
 
-	_defer.EjemploPanic()
+	//_defer.EjemploPanic()
+	go goroutines.MiNombreLento("John Moreno")
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
