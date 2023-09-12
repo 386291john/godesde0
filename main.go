@@ -52,5 +52,5 @@ func main() {
 	Maria := new(modelos.Mujer)
 	ejer_interfaces.HumanosRespirando(Maria)*/
 
-	_defer.VemosDefer()
+	_defer.EjemploPanic()
 }
