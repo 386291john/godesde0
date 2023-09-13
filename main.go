@@ -56,8 +56,13 @@ func main() {
 	ejer_interfaces.HumanosRespirando(Maria)*/
 
 	//_defer.EjemploPanic()
-	go goroutines.MiNombreLento("John Moreno")
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLento("John Moreno", canal1)
+	defer func() {
+		<-canal1
+	}()
 	fmt.Println("Estoy aqui")
-	var x string
-	fmt.Scanln(&x)
+
+	/*var x string
+	fmt.Scanln(&x)*/
 }
