@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"github.com/386291john/godesde0/goroutines"
-)
+import "github.com/386291john/godesde0/webserver"
 
 var Comer = true
 
@@ -56,13 +53,14 @@ func main() {
 	ejer_interfaces.HumanosRespirando(Maria)*/
 
 	//_defer.EjemploPanic()
-	canal1 := make(chan bool)
+	/*canal1 := make(chan bool)
 	go goroutines.MiNombreLento("John Moreno", canal1)
 	defer func() {
 		<-canal1
 	}()
-	fmt.Println("Estoy aqui")
+	fmt.Println("Estoy aqui")*/
 
 	/*var x string
 	fmt.Scanln(&x)*/
+	webserver.MiWebserver()
 }
