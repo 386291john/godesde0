@@ -1,6 +1,6 @@
 package main
 
-import "github.com/386291john/godesde0/webserver"
+import "github.com/386291john/godesde0/middlewares"
 
 var Comer = true
 
@@ -62,5 +62,6 @@ func main() {
 
 	/*var x string
 	fmt.Scanln(&x)*/
-	webserver.MiWebserver()
+	//webserver.MiWebserver()
+	middlewares.MiMiddlewere()
 }
